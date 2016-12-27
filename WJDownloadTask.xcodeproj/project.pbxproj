@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC277431E12039C00D6FC4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC277421E12039C00D6FC4F /* main.m */; };
+		DAC277461E12039C00D6FC4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC277451E12039C00D6FC4F /* AppDelegate.m */; };
+		DAC277491E12039C00D6FC4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC277481E12039C00D6FC4F /* ViewController.m */; };
+		DAC2774C1E12039C00D6FC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC2774A1E12039C00D6FC4F /* Main.storyboard */; };
+		DAC2774E1E12039C00D6FC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC2774D1E12039C00D6FC4F /* Assets.xcassets */; };
+		DAC277511E12039C00D6FC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC2774F1E12039C00D6FC4F /* LaunchScreen.storyboard */; };
+		DAC2775C1E12039C00D6FC4F /* WJDownloadTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC2775B1E12039C00D6FC4F /* WJDownloadTaskTests.m */; };
+		DAC277671E12039C00D6FC4F /* WJDownloadTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC277661E12039C00D6FC4F /* WJDownloadTaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC277581E12039C00D6FC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC277361E12039C00D6FC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC2773D1E12039C00D6FC4F;
+			remoteInfo = WJDownloadTask;
+		};
+		DAC277631E12039C00D6FC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC277361E12039C00D6FC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC2773D1E12039C00D6FC4F;
+			remoteInfo = WJDownloadTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC2773E1E12039C00D6FC4F /* WJDownloadTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJDownloadTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC277421E12039C00D6FC4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC277441E12039C00D6FC4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAC277451E12039C00D6FC4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAC277471E12039C00D6FC4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAC277481E12039C00D6FC4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAC2774B1E12039C00D6FC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC2774D1E12039C00D6FC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC277501E12039C00D6FC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC277521E12039C00D6FC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC277571E12039C00D6FC4F /* WJDownloadTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJDownloadTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC2775B1E12039C00D6FC4F /* WJDownloadTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDownloadTaskTests.m; sourceTree = "<group>"; };
+		DAC2775D1E12039C00D6FC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC277621E12039C00D6FC4F /* WJDownloadTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJDownloadTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC277661E12039C00D6FC4F /* WJDownloadTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDownloadTaskUITests.m; sourceTree = "<group>"; };
+		DAC277681E12039C00D6FC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC2773B1E12039C00D6FC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC277541E12039C00D6FC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2775F1E12039C00D6FC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC277351E12039C00D6FC4F = {
+			isa = PBXGroup;
+			children = (
+				DAC277401E12039C00D6FC4F /* WJDownloadTask */,
+				DAC2775A1E12039C00D6FC4F /* WJDownloadTaskTests */,
+				DAC277651E12039C00D6FC4F /* WJDownloadTaskUITests */,
+				DAC2773F1E12039C00D6FC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC2773F1E12039C00D6FC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2773E1E12039C00D6FC4F /* WJDownloadTask.app */,
+				DAC277571E12039C00D6FC4F /* WJDownloadTaskTests.xctest */,
+				DAC277621E12039C00D6FC4F /* WJDownloadTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC277401E12039C00D6FC4F /* WJDownloadTask */ = {
+			isa = PBXGroup;
+			children = (
+				DAC277441E12039C00D6FC4F /* AppDelegate.h */,
+				DAC277451E12039C00D6FC4F /* AppDelegate.m */,
+				DAC277471E12039C00D6FC4F /* ViewController.h */,
+				DAC277481E12039C00D6FC4F /* ViewController.m */,
+				DAC2774A1E12039C00D6FC4F /* Main.storyboard */,
+				DAC2774D1E12039C00D6FC4F /* Assets.xcassets */,
+				DAC2774F1E12039C00D6FC4F /* LaunchScreen.storyboard */,
+				DAC277521E12039C00D6FC4F /* Info.plist */,
+				DAC277411E12039C00D6FC4F /* Supporting Files */,
+			);
+			path = WJDownloadTask;
+			sourceTree = "<group>";
+		};
+		DAC277411E12039C00D6FC4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC277421E12039C00D6FC4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC2775A1E12039C00D6FC4F /* WJDownloadTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2775B1E12039C00D6FC4F /* WJDownloadTaskTests.m */,
+				DAC2775D1E12039C00D6FC4F /* Info.plist */,
+			);
+			path = WJDownloadTaskTests;
+			sourceTree = "<group>";
+		};
+		DAC277651E12039C00D6FC4F /* WJDownloadTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC277661E12039C00D6FC4F /* WJDownloadTaskUITests.m */,
+				DAC277681E12039C00D6FC4F /* Info.plist */,
+			);
+			path = WJDownloadTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC2773D1E12039C00D6FC4F /* WJDownloadTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2776B1E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTask" */;
+			buildPhases = (
+				DAC2773A1E12039C00D6FC4F /* Sources */,
+				DAC2773B1E12039C00D6FC4F /* Frameworks */,
+				DAC2773C1E12039C00D6FC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJDownloadTask;
+			productName = WJDownloadTask;
+			productReference = DAC2773E1E12039C00D6FC4F /* WJDownloadTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC277561E12039C00D6FC4F /* WJDownloadTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2776E1E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTaskTests" */;
+			buildPhases = (
+				DAC277531E12039C00D6FC4F /* Sources */,
+				DAC277541E12039C00D6FC4F /* Frameworks */,
+				DAC277551E12039C00D6FC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC277591E12039C00D6FC4F /* PBXTargetDependency */,
+			);
+			name = WJDownloadTaskTests;
+			productName = WJDownloadTaskTests;
+			productReference = DAC277571E12039C00D6FC4F /* WJDownloadTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC277611E12039C00D6FC4F /* WJDownloadTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC277711E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTaskUITests" */;
+			buildPhases = (
+				DAC2775E1E12039C00D6FC4F /* Sources */,
+				DAC2775F1E12039C00D6FC4F /* Frameworks */,
+				DAC277601E12039C00D6FC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC277641E12039C00D6FC4F /* PBXTargetDependency */,
+			);
+			name = WJDownloadTaskUITests;
+			productName = WJDownloadTaskUITests;
+			productReference = DAC277621E12039C00D6FC4F /* WJDownloadTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC277361E12039C00D6FC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = uhut;
+				TargetAttributes = {
+					DAC2773D1E12039C00D6FC4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DAC277561E12039C00D6FC4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAC2773D1E12039C00D6FC4F;
+					};
+					DAC277611E12039C00D6FC4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAC2773D1E12039C00D6FC4F;
+					};
+				};
+			};
+			buildConfigurationList = DAC277391E12039C00D6FC4F /* Build configuration list for PBXProject "WJDownloadTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC277351E12039C00D6FC4F;
+			productRefGroup = DAC2773F1E12039C00D6FC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC2773D1E12039C00D6FC4F /* WJDownloadTask */,
+				DAC277561E12039C00D6FC4F /* WJDownloadTaskTests */,
+				DAC277611E12039C00D6FC4F /* WJDownloadTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC2773C1E12039C00D6FC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC277511E12039C00D6FC4F /* LaunchScreen.storyboard in Resources */,
+				DAC2774E1E12039C00D6FC4F /* Assets.xcassets in Resources */,
+				DAC2774C1E12039C00D6FC4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC277551E12039C00D6FC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC277601E12039C00D6FC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC2773A1E12039C00D6FC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC277491E12039C00D6FC4F /* ViewController.m in Sources */,
+				DAC277461E12039C00D6FC4F /* AppDelegate.m in Sources */,
+				DAC277431E12039C00D6FC4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC277531E12039C00D6FC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC2775C1E12039C00D6FC4F /* WJDownloadTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2775E1E12039C00D6FC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC277671E12039C00D6FC4F /* WJDownloadTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC277591E12039C00D6FC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC2773D1E12039C00D6FC4F /* WJDownloadTask */;
+			targetProxy = DAC277581E12039C00D6FC4F /* PBXContainerItemProxy */;
+		};
+		DAC277641E12039C00D6FC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC2773D1E12039C00D6FC4F /* WJDownloadTask */;
+			targetProxy = DAC277631E12039C00D6FC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC2774A1E12039C00D6FC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC2774B1E12039C00D6FC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC2774F1E12039C00D6FC4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC277501E12039C00D6FC4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC277691E12039C00D6FC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC2776A1E12039C00D6FC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC2776C1E12039C00D6FC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAC2776D1E12039C00D6FC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAC2776F1E12039C00D6FC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJDownloadTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJDownloadTask.app/WJDownloadTask";
+			};
+			name = Debug;
+		};
+		DAC277701E12039C00D6FC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJDownloadTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJDownloadTask.app/WJDownloadTask";
+			};
+			name = Release;
+		};
+		DAC277721E12039C00D6FC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJDownloadTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJDownloadTask;
+			};
+			name = Debug;
+		};
+		DAC277731E12039C00D6FC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJDownloadTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhut.WJDownloadTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJDownloadTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC277391E12039C00D6FC4F /* Build configuration list for PBXProject "WJDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC277691E12039C00D6FC4F /* Debug */,
+				DAC2776A1E12039C00D6FC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC2776B1E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2776C1E12039C00D6FC4F /* Debug */,
+				DAC2776D1E12039C00D6FC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAC2776E1E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2776F1E12039C00D6FC4F /* Debug */,
+				DAC277701E12039C00D6FC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAC277711E12039C00D6FC4F /* Build configuration list for PBXNativeTarget "WJDownloadTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC277721E12039C00D6FC4F /* Debug */,
+				DAC277731E12039C00D6FC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC277361E12039C00D6FC4F /* Project object */;
+}
